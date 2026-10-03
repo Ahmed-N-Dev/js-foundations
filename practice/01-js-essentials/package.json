@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:1": "node --watch 01-closures.js"
+    "dev:1": "node --watch 01-closures.js",
+    "dev:2": "node --watch 02-this.js"
   },
   "keywords": [],
   "author": "",
