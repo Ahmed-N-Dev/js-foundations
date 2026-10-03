@@ -1,3 +1,20 @@
 git add 01-js-essentials/01-closures.js
 git commit -m "feat: add closures demo with working and broken cases"
 git push
+
+==================
+What each line does:
+
+git add — stage these files for the next commit.
+
+git commit -m — save the staged files as one snapshot with a clear message.
+
+git branch -M main — rename the current branch to main (matches GitHub default).
+
+git remote add origin — link your local repo to the GitHub repo.
+
+git push -u origin main — send commits to GitHub and remember this as the default tracking branch.
+================
+
+Commit message convention (chore:): prefix that means "non-feature work" like setup, tooling, docs.
+You will use feat:, fix:, docs:, refactor:, test:, chore: for the rest of your career. Start now.
